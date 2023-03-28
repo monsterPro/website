@@ -58,8 +58,56 @@
           </tr>
         </tbody></table> -->
         
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>          
           <tr><td style="font-size:2em;padding:20px;width:25%;vertical-align:middle"> 2022</td></tr>
+
+
+          <tr onmouseout="LaplacianFu_stop()" onmouseover="LaplacianFu_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='LaplacianFu_image'>
+                  <img src='images/laplacianFusion.jpg' width="160"></div>
+                <img src='images/laplacianFusion.jpg' width="160">
+              </div>
+              <script type="text/javascript">
+                function LaplacianFu_start() {
+                  document.getElementById('LaplacianFu_image').style.opacity = "1";
+                }
+
+                function LaplacianFu_stop() {
+                  document.getElementById('LaplacianFu_image').style.opacity = "0";
+                }
+                LaplacianFu_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <font color="purple"> <strong>[TOP]</strong></font>&nbsp
+              
+              <a href="https://dl.acm.org/doi/pdf/10.1145/3550454.3555511">
+                <papertitle>LaplacianFusion: Detailed 3D Clothed-Human Body Reconstruction</papertitle>
+              </a>
+              <br>                            
+              <a href="https://hyomin.me/">Hyomin Kim</a>,               
+              <a href="">Hyeonseo Nam</a>, 
+              <strong>Jungeon Kim</strong>, 
+              <a href="https://jaesik.info/about_me">Jaesik Park</a>, 
+              <a href="http://cg.postech.ac.kr/leesy/">Seungyong Lee</a>
+              <br>
+              <em>ACM Transactions on Graphics</em> (<strong>TOG</strong>), 2022 (<strong>Proc. SIGGRAPH Asia 2022</strong>)
+              <br>
+              <a href="https://dl.acm.org/doi/pdf/10.1145/3550454.3555511">paper</a> /
+              <a href="https://github.com/T2Kim/LaplacianFusion">code</a> /
+              <a href="https://www.youtube.com/watch?v=Ocjr2tvq5js">video [FF]</a> /
+
+              <a href="https://www.youtube.com/watch?v=UqpMt8DXMS8">video [supp]</a> /
+              <p></p>
+              <p>
+                <!-- We propose a novel framework that simultaneously reconstructs the geometry and texture map of a scene in real time. Thanks to the effective framework design and our image warping field estimation, we consequently can reconstruct a sharp textured 3D model in real time.-->
+              </p>
+            </td>
+          </tr>
+
+
           <tr onmouseout="costDCNet_stop()" onmouseover="costDCNet_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
@@ -80,7 +128,7 @@
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
               <font color="purple"> <strong>[TOP]</strong></font>&nbsp
-              <a href="">
+              <a href="https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136620248.pdf">
                 <papertitle>CostDCNet: Cost Volume based Depth Completion for a Single RGB-D Image</papertitle>
               </a>
               <br>
@@ -96,6 +144,8 @@
 							<a href="https://arxiv.org/abs/2203.01913">arXiv</a> / 
 							<a href="https://www.youtube.com/watch?v=_zN-wVwPH1s">video</a> /
               -->
+              <a href="https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136620248.pdf">paper</a> /
+              <a href="https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136620248-supp.pdf">supp</a> /
 							<a href="https://github.com/kamse/CostDCNet">code</a>
               <p></p>
               <p>
@@ -179,7 +229,7 @@
               <a href="https://jaesik.info/about_me">Jaesik Park</a>, 
               <a href="http://cg.postech.ac.kr/leesy/">Seungyong Lee</a>
               <br>
-              <em>ACM Transactions on Graphics</em> (<strong>TOG</strong>), 2022 (<strong>will be presented at SIGGRAPH 2022</strong>)
+              <em>ACM Transactions on Graphics</em> (<strong>TOG</strong>), 2022 (<strong>presented at SIGGRAPH 2022</strong>)
               <br>
               <a href="http://cg.postech.ac.kr/papers/2022_TOG_Kim.pdf">paper</a> /
 							<a href="https://www.youtube.com/watch?v=9DwykvF2Emk">video</a>
