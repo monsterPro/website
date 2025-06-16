@@ -61,6 +61,49 @@
           
           <!-- <tr><td style="font-size:2em;padding:20px;width:25%;vertical-align:middle"> 2024</td></tr> -->
 
+          <tr onmouseout="egsr25_stop()" onmouseover="egsr25_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='polycuboid_image'>
+                  <img src='images/EGSR25_after.png' width="160"></div>
+                <img src='images/EGSR25_before.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function egsr25_start() {
+                  document.getElementById('egsr25_image').style.opacity = "1";
+                }
+
+                function egsr25_stop() {
+                  document.getElementById('egsr25_image').style.opacity = "0";
+                }
+                egsr25_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <!-- <font color="purple"> <strong>[TOP]</strong></font>&nbsp -->
+              <a href="">
+                <papertitle>Multiview Geometric Regularization of Gaussian Splatting for Accurate Radiance Fields</papertitle>
+              </a>
+              <br>
+              <strong>Jungeon Kim</strong>,              
+              <a href="">Geonsoo Park</a>,
+              <a href="http://cg.postech.ac.kr/leesy/">Seungyong Lee</a>
+              <br>
+              <em>Computer Graphics Forum</em> (<strong>EGSR</strong>), 2025
+              <br>
+              
+							<a href="">arXiv</a> / 
+							<a href="">video</a> /             
+              <a href="">paper</a> /
+              <a href="">supp</a>
+							<!-- <a href="">code</a> -->
+              <p></p>
+              <p>
+                
+              </p>
+            </td>
+          </tr>
+
           <tr onmouseout="polycuboid_stop()" onmouseover="polycuboid_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
@@ -92,7 +135,7 @@
               <br>
               <em>International Conference on 3D Vision</em> (<strong>3DV</strong>), 2025
               <br>
-              
+              <a href="https://waldstein94.github.io/deep-polycuboid-fitting/">project page</a> /
 							<a href="">arXiv</a> / 
 							<a href="">video</a> /             
               <a href="">paper</a> /
